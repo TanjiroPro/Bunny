@@ -21,21 +21,21 @@ let tags = {
 }
 
 const defaultMenu = {
-  before: `╔═━━━━✦❘ 𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆 ❘✦━━━━═╗
+  before: `╔═━━━━✦❘ 𝕭𝖚𝖓𝖓𝖞 ❘✦━━━━═╗
 ⛧ *_Usuario ::_* %name
 ⛧ *_Nivel ::_* %level
 ⛧ *_Exp:_* %exp / %maxexp
 ⛧ *_Usuarios ::_* %totalreg
 ⛧ *_Modo ::_* %mode
 ⛧ *_Tiempo Activo ::_* %muptime
-╚═━━━━✦❘ 𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆 ❘✦━━━━═╝
+╚═━━━━✦❘ 𝕭𝖚𝖓𝖓𝖞 ❘✦━━━━═╝
 
 %readmore
 `.trimStart(),
 
-  header: '\n╔═━━━━✦〔 💖 %category 〕✦━━━━═╗',
+  header: '\n╔═━━━━✦〔 💞 %category 〕✦━━━━═╗',
   body: '│ ✦ %cmd\n',
-  footer: '╚═━━━━✦❘  𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆  ❘✦━━━━═╝',
+  footer: '╚═━━━━✦❘  𝕭𝖚𝖓𝖓𝖞  ❘✦━━━━═╝',
   after: '\n',
 }
 
@@ -100,18 +100,18 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 
     // Mensaje inicial antes del menú
     await conn.sendMessage(m.chat, {
-      text: `💖 *Iniciando Proyeto Mermelda*\n💖 *Proyecto Terminado*`,
+      text: `💞 *Iniciando Proyeto Mermelda*\n💞 *Proyecto Terminado*`,
       mentions: [m.sender]
     }, { quoted: m })
 
     await conn.sendMessage(m.chat, {
-      image: { url: 'https://qu.ax/OLZSB.jpg' }, // Imagen existente
+      image: { url: 'https://qu.ax/QycHl.jpg' }, // Imagen existente
       caption: text,
-      footer: ' 𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆 ',
+      footer: ' 𝕭𝖚𝖓𝖓𝖞 ',
       buttons: [
-        { buttonId: `${_p}owner`, buttonText: { displayText: 'Creador 💖' }, type: 1 },
-        { buttonId: `${_p}grupos`, buttonText: { displayText: 'Grupos 💖' }, type: 1 },
-        { buttonId: `${_p}comprarbot`, buttonText: { displayText: 'Comprar Mafia 💖' }, type: 1 }
+        { buttonId: `${_p}owner`, buttonText: { displayText: 'Creador 💞' }, type: 1 },
+        { buttonId: `${_p}grupos`, buttonText: { displayText: 'Grupos 💞' }, type: 1 },
+        { buttonId: `${_p}comprarbot`, buttonText: { displayText: 'Comprar Mafia 💞' }, type: 1 }
       ],
       viewOnce: true
     }, { quoted: m })

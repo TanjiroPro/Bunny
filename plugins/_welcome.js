@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 
-const iconsUrl = 'https://qu.ax/dUnCW.jpg'
+const iconsUrl = 'https://qu.ax/QycHl.jpg'
 const redesUrl = 'https://chat.whatsapp.com/JUraAM0lZyB89FXbsywP9m'
 
 const fkontak = {
@@ -10,7 +10,7 @@ const fkontak = {
   },
   message: {
     contactMessage: {
-      displayName: 'Mermelada Bot',
+      displayName: 'Bunny Bot',
       vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;@jxznr_szz;;;\nFN:Black Clover\nitem1.TEL;waid=51936994155:+51 936 994 155\nEND:VCARD`,
     },
   },
@@ -42,7 +42,7 @@ export async function before(m, { conn }) {
           isForwarded: true,
           mentionedJid: getMentionedJid(),
           externalAdReply: {
-            title: '𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆 𝕭𝖔𝖙 💖\n𝕭𝖎𝖊𝖓𝖛𝖊𝖓𝖎𝖉𝖔 𝕬𝖑 𝕸𝖊𝖏𝖔𝖗 𝕲𝖗𝖚𝖕𝖔',
+            title: '𝕭𝖚𝖓𝖓𝖞 𝕭𝖔𝖙 💞\n𝕭𝖎𝖊𝖓𝖛𝖊𝖓𝖎𝖉𝖔 𝕬𝖑 𝕸𝖊𝖏𝖔𝖗 𝕲𝖗𝖚𝖕𝖔',
             body: `${userNameRaw} ha ingresado.`,
             previewType: 'PHOTO',
             thumbnailUrl: null,
@@ -69,7 +69,7 @@ export async function before(m, { conn }) {
           isForwarded: true,
           mentionedJid: getMentionedJid(),
           externalAdReply: {
-            title: '𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆 𝕭𝖔𝖙 💖\n𝕰𝖘𝖕𝖊𝖗𝖔 𝕼𝖚𝖊 𝕹𝖔 𝖁𝖚𝖊𝖑𝖛𝖆𝖘 𝕮𝖙𝖒𝖗𝖊',
+            title: '𝕭𝖚𝖓𝖓𝖞 𝕭𝖔𝖙 💞\n𝕰𝖘𝖕𝖊𝖗𝖔 𝕼𝖚𝖊 𝕹𝖔 𝖁𝖚𝖊𝖑𝖛𝖆𝖘 𝕮𝖙𝖒𝖗𝖊',
             body: `${userNameRaw} ha salido.`,
             previewType: 'PHOTO',
             thumbnailUrl: null,

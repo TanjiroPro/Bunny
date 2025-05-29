@@ -7,10 +7,10 @@ handler.tags = ['main']
 handler.help = ['comprarbot']
 
 global.ComprarBot = `
-_*Deseas Comprar Mermelada Bot 🤖?*_
+_*Deseas Comprar Bunny Bot 🤖?*_
 
 _*Vendedora Oficial ::*_
-- _*Mermelada*_ :: +52 747 257 5884
+- _*Mermelada*_ :: +56958890156
 
-- *_Grupo Ofc Ventas_* :: https://chat.whatsapp.com/KqyCD7J3Xc59SnHKVS51MV 
+- *_Grupo Ofc Ventas_* :: https://chat.whatsapp.com/KrjxWvJhEpxJ7UKV6mkn2C 
 `;

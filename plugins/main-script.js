@@ -1,9 +1,9 @@
 const handler = async (m, { conn }) => {
   const texto = `
-\`\`\`Grupo Mermelada Ventas    :\`\`\`
+\`\`\`Grupo Bunny Ventas    :\`\`\`
 
 
-🔗 *Grupo oficial del bot:* https://chat.whatsapp.com/KqyCD7J3Xc59SnHKVS51MV
+🔗 *Grupo oficial del bot:* https://chat.whatsapp.com/KrjxWvJhEpxJ7UKV6mkn2C
   `.trim()
 
   await conn.reply(m.chat, texto, m)
