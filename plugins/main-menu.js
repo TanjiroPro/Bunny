@@ -22,19 +22,19 @@ let tags = {
 
 const defaultMenu = {
   before: `╔═━━━━✦❘ 𝕭𝖚𝖓𝖓𝖞 ❘✦━━━━═╗
-⛧ *_Usuario ::_* %name
-⛧ *_Nivel ::_* %level
-⛧ *_Exp:_* %exp / %maxexp
-⛧ *_Usuarios ::_* %totalreg
-⛧ *_Modo ::_* %mode
-⛧ *_Tiempo Activo ::_* %muptime
+│ 💞 *_Usuario ::_* %name
+│ 💞 *_Nivel ::_* %level
+│ 💞 *_Exp:_* %exp / %maxexp
+│ 💞 *_Usuarios ::_* %totalreg
+│ 💞 *_Modo ::_* %mode
+│ 💞 *_Tiempo Activo ::_* %muptime
 ╚═━━━━✦❘ 𝕭𝖚𝖓𝖓𝖞 ❘✦━━━━═╝
 
 %readmore
 `.trimStart(),
 
   header: '\n╔═━━━━✦〔 💞 %category 〕✦━━━━═╗',
-  body: '│ ✦ %cmd\n',
+  body: '│ 💞 %cmd\n',
   footer: '╚═━━━━✦❘  𝕭𝖚𝖓𝖓𝖞  ❘✦━━━━═╝',
   after: '\n',
 }
@@ -100,7 +100,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 
     // Mensaje inicial antes del menú
     await conn.sendMessage(m.chat, {
-      text: `💞 *Iniciando Proyeto Mermelda*\n💞 *Proyecto Terminado*`,
+      text: `│ 💞 *Iniciando Proyeto Bunny*\n│ 💞 *Proyecto Terminado*`,
       mentions: [m.sender]
     }, { quoted: m })
 
@@ -111,7 +111,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       buttons: [
         { buttonId: `${_p}owner`, buttonText: { displayText: 'Creador 💞' }, type: 1 },
         { buttonId: `${_p}grupos`, buttonText: { displayText: 'Grupos 💞' }, type: 1 },
-        { buttonId: `${_p}comprarbot`, buttonText: { displayText: 'Comprar Mafia 💞' }, type: 1 }
+        { buttonId: `${_p}comprarbot`, buttonText: { displayText: 'Comprar Bunny 💞' }, type: 1 }
       ],
       viewOnce: true
     }, { quoted: m })

@@ -24,7 +24,7 @@ Elige una de las opciones para descargar:
     {
       image: { url: videoInfo.thumbnail },
       caption: body,
-      footer: `𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆 𝕭𝖔𝖙 💖| ⚔️🥷`,
+      footer: `𝕭𝖚𝖓𝖓𝖞 𝕭𝖔𝖙 💞| ⚔️🥷`,
       buttons: [
         { buttonId: `.ytmp3 ${videoInfo.url}`, buttonText: { displayText: '🎵 Audio' } },
         { buttonId: `.ytmp4 ${videoInfo.url}`, buttonText: { displayText: '📽️ Video' } },

@@ -7,7 +7,7 @@ handler.tags = ['main']
 handler.help = ['comprarbot']
 
 global.ComprarBot = `
-_*Deseas Comprar Bunny Bot 🤖?*_
+_*Deseas Comprar Bunny Bot 💞?*_
 
 _*Vendedora Oficial ::*_
 - _*Mermelada*_ :: +56958890156
